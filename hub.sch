@@ -11881,7 +11881,7 @@ Source: www.kingbright.com</description>
 <part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="/90" package3d_urn="urn:adsk.eagle:package:22404/2" value="LED Strip"/>
 <part name="JP5" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP2E" device="" package3d_urn="urn:adsk.eagle:package:15452/1" value="LED Type"/>
 <part name="JP6" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP2E" device="" package3d_urn="urn:adsk.eagle:package:15452/1" value="JTAG Enable"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="68"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="Power"/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$2" library="nebrius" deviceset="ESP32-WROOM-32D" device=""/>
@@ -12081,7 +12081,7 @@ Source: www.kingbright.com</description>
 </instance>
 <instance part="JP6" gate="1" x="-48.26" y="17.78" smashed="yes">
 <attribute name="NAME" x="-52.07" y="17.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-38.1" y="23.495" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="-45.72" y="26.035" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U$2" gate="G$1" x="-7.62" y="5.08" smashed="yes"/>
 </instances>
@@ -12232,60 +12232,60 @@ Source: www.kingbright.com</description>
 <pinref part="U$2" gate="G$1" pin="IO14"/>
 </segment>
 </net>
-<net name="IO17" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="IO17"/>
-<wire x1="25.4" y1="-7.62" x2="35.56" y2="-7.62" width="0.1524" layer="91"/>
-<label x="38.1" y="-7.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="IO16" class="0">
+<net name="GPIO16" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="IO16"/>
 <wire x1="25.4" y1="-10.16" x2="35.56" y2="-10.16" width="0.1524" layer="91"/>
 <label x="38.1" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="IO25" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="IO25"/>
-<wire x1="-27.94" y1="-5.08" x2="-35.56" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-38.1" y="-5.08" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="IO26" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="IO26"/>
-<wire x1="-27.94" y1="-7.62" x2="-35.56" y2="-7.62" width="0.1524" layer="91"/>
-<label x="-38.1" y="-7.62" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="IO33" class="0">
+<net name="GPIO33" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="IO33"/>
 <wire x1="-27.94" y1="-2.54" x2="-35.56" y2="-2.54" width="0.1524" layer="91"/>
 <label x="-38.1" y="-2.54" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="IO27" class="0">
+<net name="GPIO27" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="IO27"/>
 <wire x1="-27.94" y1="-10.16" x2="-35.56" y2="-10.16" width="0.1524" layer="91"/>
 <label x="-38.1" y="-10.16" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="IO4" class="0">
+<net name="GPIO4" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="IO4"/>
 <wire x1="25.4" y1="-12.7" x2="35.56" y2="-12.7" width="0.1524" layer="91"/>
 <label x="38.1" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="IO19" class="0">
+<net name="GPIO32" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="IO19"/>
-<wire x1="25.4" y1="0" x2="35.56" y2="0" width="0.1524" layer="91"/>
-<label x="38.1" y="0" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="IO32"/>
+<wire x1="-27.94" y1="0" x2="-35.56" y2="0" width="0.1524" layer="91"/>
+<label x="-38.1" y="0" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="GPIO25" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="IO25"/>
+<wire x1="-27.94" y1="-5.08" x2="-35.56" y2="-5.08" width="0.1524" layer="91"/>
+<label x="-38.1" y="-5.08" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="GPIO26" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="IO26"/>
+<wire x1="-27.94" y1="-7.62" x2="-35.56" y2="-7.62" width="0.1524" layer="91"/>
+<label x="-38.1" y="-7.62" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="GPIO17" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="IO17"/>
+<wire x1="25.4" y1="-7.62" x2="35.56" y2="-7.62" width="0.1524" layer="91"/>
+<label x="38.1" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -12815,60 +12815,60 @@ Source: www.kingbright.com</description>
 <pinref part="P+10" gate="VCC" pin="VCC"/>
 </segment>
 </net>
-<net name="IO33" class="0">
-<segment>
-<pinref part="JP7" gate="A" pin="3"/>
-<wire x1="66.04" y1="99.06" x2="55.88" y2="99.06" width="0.1524" layer="91"/>
-<label x="53.34" y="99.06" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="IO27" class="0">
-<segment>
-<pinref part="JP7" gate="A" pin="9"/>
-<wire x1="66.04" y1="91.44" x2="55.88" y2="91.44" width="0.1524" layer="91"/>
-<label x="53.34" y="91.44" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="IO25" class="0">
+<net name="GPIO33" class="0">
 <segment>
 <pinref part="JP7" gate="A" pin="5"/>
 <wire x1="66.04" y1="96.52" x2="55.88" y2="96.52" width="0.1524" layer="91"/>
 <label x="53.34" y="96.52" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="IO26" class="0">
+<net name="GPIO25" class="0">
 <segment>
 <pinref part="JP7" gate="A" pin="7"/>
 <wire x1="66.04" y1="93.98" x2="55.88" y2="93.98" width="0.1524" layer="91"/>
 <label x="53.34" y="93.98" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="IO17" class="0">
+<net name="GPIO4" class="0">
 <segment>
 <pinref part="JP7" gate="A" pin="6"/>
 <wire x1="73.66" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
 <label x="86.36" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="IO4" class="0">
-<segment>
-<pinref part="JP7" gate="A" pin="8"/>
-<wire x1="73.66" y1="93.98" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
-<label x="86.36" y="93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="IO16" class="0">
+<net name="GPIO16" class="0">
 <segment>
 <pinref part="JP7" gate="A" pin="4"/>
 <wire x1="73.66" y1="99.06" x2="83.82" y2="99.06" width="0.1524" layer="91"/>
 <label x="86.36" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="IO19" class="0">
+<net name="GPIO17" class="0">
 <segment>
 <pinref part="JP7" gate="A" pin="2"/>
 <wire x1="73.66" y1="101.6" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
 <label x="86.36" y="101.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO32" class="0">
+<segment>
+<pinref part="JP7" gate="A" pin="3"/>
+<wire x1="66.04" y1="99.06" x2="55.88" y2="99.06" width="0.1524" layer="91"/>
+<label x="53.34" y="99.06" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="GPIO26" class="0">
+<segment>
+<pinref part="JP7" gate="A" pin="9"/>
+<wire x1="66.04" y1="91.44" x2="55.88" y2="91.44" width="0.1524" layer="91"/>
+<label x="53.34" y="91.44" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="GPIO27" class="0">
+<segment>
+<pinref part="JP7" gate="A" pin="8"/>
+<wire x1="73.66" y1="93.98" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
+<label x="86.36" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
