@@ -156,10 +156,6 @@
 <pad name="M2" x="2.5" y="2.7" drill="0.85" diameter="1.35"/>
 <pad name="M3" x="-3.5" y="0" drill="1.15" diameter="1.55" shape="square"/>
 <pad name="M4" x="3.5" y="0" drill="1.15" diameter="1.55" shape="square"/>
-<rectangle x1="-2.725" y1="-0.775" x2="-2.125" y2="0.775" layer="16"/>
-<rectangle x1="-2.725" y1="-0.775" x2="-2.125" y2="0.775" layer="1"/>
-<rectangle x1="2.125" y1="-0.775" x2="2.725" y2="0.775" layer="1"/>
-<rectangle x1="2.125" y1="-0.775" x2="2.725" y2="0.775" layer="1"/>
 <wire x1="-3.95" y1="-1.45" x2="3.95" y2="-1.45" width="0.1016" layer="51"/>
 <wire x1="-3.95" y1="-1.45" x2="-3.95" y2="-1" width="0.1016" layer="51"/>
 <wire x1="3.95" y1="-1.45" x2="3.95" y2="-1" width="0.1016" layer="51"/>
@@ -712,17 +708,17 @@
 <pin name="D-" x="-15.24" y="2.54" length="middle"/>
 <pin name="D+" x="-15.24" y="0" length="middle"/>
 <pin name="ID" x="-15.24" y="-2.54" length="middle"/>
-<pin name="GND" x="-15.24" y="-5.08" length="middle"/>
+<pin name="GND$1" x="-15.24" y="-5.08" length="middle"/>
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.1524" layer="94"/>
 <text x="0" y="-10.16" size="1.778" layer="96" rot="R180">&gt;Value</text>
 <text x="-5.08" y="10.16" size="1.778" layer="95">&gt;Name</text>
-<pin name="M1" x="15.24" y="2.54" visible="off" length="middle" direction="nc" rot="R180"/>
-<pin name="M2" x="15.24" y="0" visible="off" length="middle" direction="nc" rot="R180"/>
-<pin name="M3" x="15.24" y="-2.54" visible="off" length="middle" direction="nc" rot="R180"/>
-<pin name="M4" x="15.24" y="-5.08" visible="off" length="middle" direction="nc" rot="R180"/>
+<pin name="GND$2" x="15.24" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="GND$3" x="15.24" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="GND$4" x="15.24" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="GND$5" x="15.24" y="-5.08" length="middle" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="LM3671MF-3.3/NOPB">
 <pin name="VIN" x="2.54" y="0" length="middle" direction="in"/>
@@ -934,12 +930,12 @@
 <connect gate="G$1" pin="5V" pad="1"/>
 <connect gate="G$1" pin="D+" pad="3"/>
 <connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="GND$1" pad="5"/>
+<connect gate="G$1" pin="GND$2" pad="M1"/>
+<connect gate="G$1" pin="GND$3" pad="M2"/>
+<connect gate="G$1" pin="GND$4" pad="M3"/>
+<connect gate="G$1" pin="GND$5" pad="M4"/>
 <connect gate="G$1" pin="ID" pad="4"/>
-<connect gate="G$1" pin="M1" pad="M1"/>
-<connect gate="G$1" pin="M2" pad="M2"/>
-<connect gate="G$1" pin="M3" pad="M3"/>
-<connect gate="G$1" pin="M4" pad="M4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12055,7 +12051,7 @@ Source: www.kingbright.com</description>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="Power"/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$2" library="nebrius" deviceset="ESP32-WROOM-32D" device=""/>
-<part name="JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2"/>
+<part name="JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2" value="GPIO"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="U$5" library="nebrius" deviceset="SSD1306-OLED" device=""/>
@@ -12066,6 +12062,7 @@ Source: www.kingbright.com</description>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="/90" package3d_urn="urn:adsk.eagle:package:22459/2" value="3-pin LED strip"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12130,13 +12127,16 @@ Source: www.kingbright.com</description>
 <instance part="GND18" gate="1" x="142.24" y="2.54" smashed="yes">
 <attribute name="VALUE" x="139.7" y="0" size="1.778" layer="96"/>
 </instance>
+<instance part="GND20" gate="1" x="5.08" y="12.7" smashed="yes">
+<attribute name="VALUE" x="2.54" y="10.16" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="U1" gate="G$1" pin="GND$1"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="38.1" y1="17.78" x2="40.64" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="17.78" x2="40.64" y2="15.24" width="0.1524" layer="91"/>
@@ -12161,6 +12161,24 @@ Source: www.kingbright.com</description>
 <pinref part="GND18" gate="1" pin="GND"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="5.08" x2="142.24" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GND$2"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+<wire x1="7.62" y1="25.4" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="25.4" x2="5.08" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="GND$3"/>
+<wire x1="5.08" y1="22.86" x2="5.08" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="20.32" x2="5.08" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="17.78" x2="5.08" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="22.86" x2="5.08" y2="22.86" width="0.1524" layer="91"/>
+<junction x="5.08" y="22.86"/>
+<pinref part="U1" gate="G$1" pin="GND$4"/>
+<wire x1="7.62" y1="20.32" x2="5.08" y2="20.32" width="0.1524" layer="91"/>
+<junction x="5.08" y="20.32"/>
+<pinref part="U1" gate="G$1" pin="GND$5"/>
+<wire x1="7.62" y1="17.78" x2="5.08" y2="17.78" width="0.1524" layer="91"/>
+<junction x="5.08" y="17.78"/>
 </segment>
 </net>
 <net name="N$1" class="0">
