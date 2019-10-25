@@ -13370,6 +13370,9 @@ CONN_04
 <wire x1="53.34" y1="30.48" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="F1" gate="A" pin="1"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
+<pinref part="U$3" gate="A" pin="2"/>
+<wire x1="50.8" y1="30.48" x2="53.34" y2="30.48" width="0.1524" layer="91"/>
+<junction x="53.34" y="30.48"/>
 </segment>
 </net>
 <net name="N$10" class="0">
