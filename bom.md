@@ -20,6 +20,6 @@
 | [ERJ-6GEYJ103V](https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEYJ103V/P10KACT-ND/43118) | RES SMD 10K OHM 5% 1/8W 0805 | 4 | $0.10 | $0.40 |
 | [SS8050-G](https://www.digikey.com/product-detail/en/comchip-technology/SS8050-G/641-1790-1-ND/6138954) | NPN TRANSISTOR 1.5A 40V SOT-23 R | 2 | $0.23 | $0.46 |
 | [PCB Board](https://oshpark.com/shared_projects/Bhv1b7Da) | Custom PCB from OSH Park | 1 | $8.80 | $8.80 |
-| | | | | **$35.71** |
+| | | | | **$32.75** |
 
 &ast; All prices in USD. Prices current as of October 27th, 2019.
