@@ -18,6 +18,7 @@
 | [150080RS75000](https://www.digikey.com/product-detail/en/w-rth-elektronik/150080RS75000/732-4984-1-ND/4489916) | LED RED CLEAR 0805 SMD | 1 | $0.17 | $0.17 |
 | [ERJ-6GEYJ221V](https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEYJ221V/P220ACT-ND/90021) | RES SMD 220 OHM 5% 1/8W 0805 | 1 | $0.10 | $0.10 |
 | [ERJ-6GEYJ103V](https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEYJ103V/P10KACT-ND/43118) | RES SMD 10K OHM 5% 1/8W 0805 | 4 | $0.10 | $0.40 |
+| [SS8050-G](https://www.digikey.com/product-detail/en/comchip-technology/SS8050-G/641-1790-1-ND/6138954) | NPN TRANSISTOR 1.5A 40V SOT-23 R | 2 | $0.23 | $0.46 |
 | [PCB Board](https://oshpark.com/shared_projects/Bhv1b7Da) | Custom PCB from OSH Park | 1 | $8.80 | $8.80 |
 | | | | | **$35.71** |
 
