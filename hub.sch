@@ -14169,18 +14169,11 @@ CONN_04
 <label x="88.9" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="TDI" class="0">
+<net name="TCK" class="0">
 <segment>
 <pinref part="JP3" gate="A" pin="3"/>
 <wire x1="66.04" y1="66.04" x2="55.88" y2="66.04" width="0.1524" layer="91"/>
 <label x="53.34" y="66.04" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="TCK" class="0">
-<segment>
-<pinref part="JP3" gate="A" pin="4"/>
-<wire x1="73.66" y1="66.04" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
-<label x="88.9" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TMS" class="0">
@@ -14253,6 +14246,13 @@ CONN_04
 <wire x1="73.66" y1="101.6" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="101.6" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="P+15" gate="1" pin="+5V"/>
+</segment>
+</net>
+<net name="TDI" class="0">
+<segment>
+<pinref part="JP3" gate="A" pin="4"/>
+<wire x1="73.66" y1="66.04" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
+<label x="88.9" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
