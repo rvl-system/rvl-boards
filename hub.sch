@@ -13168,8 +13168,8 @@ CONN_04
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
-<part name="U$1" library="nebrius" deviceset="SS8050-G" device=""/>
-<part name="U$4" library="nebrius" deviceset="SS8050-G" device=""/>
+<part name="U5" library="nebrius" deviceset="SS8050-G" device=""/>
+<part name="U6" library="nebrius" deviceset="SS8050-G" device=""/>
 <part name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="JOYSTICK_MINI" device="" package3d_urn="urn:adsk.eagle:package:40157/1"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R5" library="nebrius" deviceset="744C083" device="" value="10k"/>
@@ -13648,11 +13648,11 @@ CONN_04
 <attribute name="NAME" x="36.83" y="42.1386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="36.83" y="37.338" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="30.48" y="58.42" smashed="yes" rot="MR0">
+<instance part="U5" gate="G$1" x="30.48" y="58.42" smashed="yes" rot="MR0">
 <attribute name="NAME" x="25.4" y="58.42" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="25.4" y="55.88" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="U$4" gate="G$1" x="30.48" y="40.64" smashed="yes" rot="R180">
+<instance part="U6" gate="G$1" x="30.48" y="40.64" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.4" y="40.64" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="25.4" y="43.18" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -13687,7 +13687,7 @@ CONN_04
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="B"/>
+<pinref part="U5" gate="G$1" pin="B"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="58.42" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
 </segment>
@@ -13696,7 +13696,7 @@ CONN_04
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="40.64" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="E"/>
+<pinref part="U5" gate="G$1" pin="E"/>
 <wire x1="27.94" y1="53.34" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="50.8" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="50.8" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
@@ -13714,7 +13714,7 @@ CONN_04
 <wire x1="45.72" y1="58.42" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="48.26" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
 <junction x="50.8" y="58.42"/>
-<pinref part="U$4" gate="G$1" pin="E"/>
+<pinref part="U6" gate="G$1" pin="E"/>
 <wire x1="27.94" y1="48.26" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="58.42" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="58.42" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
@@ -13724,14 +13724,14 @@ CONN_04
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="B"/>
+<pinref part="U6" gate="G$1" pin="B"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="40.64" x2="35.56" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IO0" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="C"/>
+<pinref part="U6" gate="G$1" pin="C"/>
 <wire x1="27.94" y1="35.56" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
 <label x="20.32" y="33.02" size="1.778" layer="95" align="bottom-right"/>
 <wire x1="22.86" y1="33.02" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
@@ -13739,7 +13739,7 @@ CONN_04
 </net>
 <net name="EN" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="C"/>
+<pinref part="U5" gate="G$1" pin="C"/>
 <label x="20.32" y="66.04" size="1.778" layer="95" align="bottom-right"/>
 <wire x1="27.94" y1="63.5" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="66.04" x2="22.86" y2="66.04" width="0.1524" layer="91"/>
