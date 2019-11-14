@@ -1,2 +1,2 @@
-# rvl-hub-board
-RVL Hub Board schematics and documentation
+# RVL Controller Board
+RVL hcontroller board schematics and documentation
