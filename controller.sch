@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13356,8 +13356,6 @@ CONN_04
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="U5" library="nebrius" deviceset="MBT3904DW1T1" device=""/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
-<part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 </parts>
@@ -13580,13 +13578,6 @@ CONN_04
 <instance part="P+15" gate="VCC" x="66.04" y="2.54" smashed="yes">
 <attribute name="VALUE" x="63.5" y="0" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C3" gate="G$1" x="-55.88" y="7.62" smashed="yes">
-<attribute name="NAME" x="-54.864" y="8.255" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-54.864" y="3.429" size="1.778" layer="96"/>
-</instance>
-<instance part="GND22" gate="1" x="-55.88" y="-2.54" smashed="yes">
-<attribute name="VALUE" x="-58.42" y="-5.08" size="1.778" layer="96"/>
-</instance>
 <instance part="P+16" gate="VCC" x="-55.88" y="30.48" smashed="yes">
 <attribute name="VALUE" x="-58.42" y="27.94" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -13619,11 +13610,6 @@ CONN_04
 <wire x1="-12.7" y1="-22.86" x2="-12.7" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="GND@3"/>
 </segment>
-<segment>
-<pinref part="GND22" gate="1" pin="GND"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="-55.88" y1="0" x2="-55.88" y2="2.54" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -13652,8 +13638,6 @@ CONN_04
 <junction x="-55.88" y="12.7"/>
 <pinref part="U$2" gate="G$1" pin="EN"/>
 <label x="-63.5" y="12.7" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="-55.88" y1="12.7" x2="-55.88" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TXD" class="0">
@@ -13788,14 +13772,14 @@ CONN_04
 <label x="38.1" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DOWN" class="0">
+<net name="UP" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="IO5"/>
 <wire x1="25.4" y1="-5.08" x2="35.56" y2="-5.08" width="0.1524" layer="91"/>
 <label x="38.1" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="UP" class="0">
+<net name="DOWN" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="IO19"/>
 <wire x1="25.4" y1="0" x2="35.56" y2="0" width="0.1524" layer="91"/>
@@ -13941,15 +13925,18 @@ CONN_04
 <segment>
 <pinref part="P+14" gate="VCC" pin="VCC"/>
 <pinref part="SJ2" gate="1" pin="2"/>
-<wire x1="71.12" y1="68.58" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
+<wire x1="71.12" y1="68.58" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="3"/>
+<wire x1="71.12" y1="71.12" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="45.72" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="SJ2" gate="1" pin="1"/>
-<wire x1="71.12" y1="58.42" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="58.42" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="55.88" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="55.88" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
+<junction x="71.12" y="55.88"/>
+<wire x1="73.66" y1="55.88" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="71.12" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
+<junction x="71.12" y="71.12"/>
 </segment>
 </net>
 </nets>
@@ -14001,12 +13988,12 @@ CONN_04
 <attribute name="VALUE" x="-22.86" y="60.706" size="1.778" layer="96" font="vector" rot="MR180"/>
 <attribute name="NAME" x="-22.86" y="45.212" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
-<instance part="GND17" gate="1" x="-10.16" y="40.64" smashed="yes">
-<attribute name="VALUE" x="-12.7" y="38.1" size="1.778" layer="96"/>
+<instance part="GND17" gate="1" x="-10.16" y="35.56" smashed="yes">
+<attribute name="VALUE" x="-12.7" y="33.02" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ1" gate="G$1" x="0" y="43.18" smashed="yes" rot="R270">
-<attribute name="NAME" x="2.54" y="41.021" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-5.08" y="38.735" size="1.778" layer="96"/>
+<instance part="SJ1" gate="G$1" x="0" y="40.64" smashed="yes" rot="R270">
+<attribute name="NAME" x="2.54" y="38.481" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-5.08" y="36.195" size="1.778" layer="96"/>
 </instance>
 <instance part="JP1" gate="A" x="25.4" y="50.8" smashed="yes">
 <attribute name="NAME" x="19.05" y="59.055" size="1.778" layer="95"/>
@@ -14052,11 +14039,11 @@ CONN_04
 </segment>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="-10.16" y1="48.26" x2="-10.16" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="48.26" x2="-10.16" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="-12.7" y1="48.26" x2="-10.16" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="43.18" x2="-7.62" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="43.18" x2="-7.62" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="40.64" x2="-7.62" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="40.64" x2="-7.62" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="48.26" x2="-10.16" y2="48.26" width="0.1524" layer="91"/>
 <junction x="-10.16" y="48.26"/>
 <pinref part="SJ1" gate="G$1" pin="3"/>
@@ -14074,15 +14061,6 @@ CONN_04
 <pinref part="P+8" gate="VCC" pin="VCC"/>
 <wire x1="73.66" y1="78.74" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="78.74" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="U3" gate="A" pin="A"/>
-<wire x1="7.62" y1="96.52" x2="17.78" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="96.52" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="43.18" x2="5.08" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="SJ1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -14139,6 +14117,7 @@ CONN_04
 </net>
 <net name="N$7" class="0">
 <segment>
+<wire x1="0" y1="45.72" x2="0" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="0" y1="48.26" x2="0" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="0" y1="50.8" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="3"/>
@@ -14146,6 +14125,15 @@ CONN_04
 <junction x="0" y="50.8"/>
 <pinref part="SJ1" gate="G$1" pin="2"/>
 <pinref part="JP1" gate="A" pin="3"/>
+<pinref part="U3" gate="A" pin="A"/>
+<wire x1="7.62" y1="96.52" x2="17.78" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="96.52" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="48.26" x2="7.62" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="40.64" x2="5.08" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="SJ1" gate="G$1" pin="1"/>
+<wire x1="0" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
+<junction x="0" y="48.26"/>
+<junction x="7.62" y="48.26"/>
 </segment>
 </net>
 </nets>
@@ -14153,6 +14141,7 @@ CONN_04
 <sheet>
 <description>UI</description>
 <plain>
+<text x="35.56" y="25.4" size="1.778" layer="97">Note: UP/DOWN are backwards in the part library for the joystick</text>
 </plain>
 <instances>
 <instance part="S1" gate="G$1" x="68.58" y="43.18" smashed="yes">
@@ -14201,7 +14190,7 @@ CONN_04
 <wire x1="116.84" y1="66.04" x2="116.84" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="UP" class="0">
+<net name="DOWN" class="0">
 <segment>
 <pinref part="S1" gate="G$1" pin="UP"/>
 <wire x1="55.88" y1="45.72" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
@@ -14214,7 +14203,7 @@ CONN_04
 <wire x1="71.12" y1="55.88" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DOWN" class="0">
+<net name="UP" class="0">
 <segment>
 <pinref part="S1" gate="G$1" pin="DOWN"/>
 <wire x1="55.88" y1="43.18" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
