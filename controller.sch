@@ -13228,7 +13228,7 @@ CONN_04
 <junction x="142.24" y="15.24"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="+5V" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="VIN"/>
 <wire x1="78.74" y1="30.48" x2="76.2" y2="30.48" width="0.1524" layer="91"/>
@@ -14025,7 +14025,7 @@ CONN_04
 <pinref part="JP2" gate="A" pin="16"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="GND" class="0">
 <segment>
 <wire x1="73.66" y1="101.6" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="101.6" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
