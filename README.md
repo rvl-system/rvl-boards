@@ -11,6 +11,37 @@ The RVL controller board is a custom board that runs the [RVL Firmware](https://
 - A 16-pin GPIO header, with GPIO, UART, JTAG, I2C, and ADC pins exposed
 - Compatible with 3 or 4 pin LED strips supported by [FastLED](http://fastled.io/)
   - Solder jumper for switching between 3 and 4 pin headers
+  
+## GPIO Header Pins
+
+This data comes from the [ESP32 WROOM datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf).
+
+|Pin|Functions|
+|--|--|
+| TMS | GPIO14, ADC2_CH6, TOUCH6, RTC_GPIO16, MTMS, HSPICLK, HS2_CLK,
+SD_CLK, EMAC_TXD2 |
+| TDI | GPIO12, ADC2_CH5, TOUCH5, RTC_GPIO15, MTDI, HSPIQ, HS2_DATA2,
+SD_DATA2, EMAC_TXD3 |
+| TCK | GPIO13, ADC2_CH4, TOUCH4, RTC_GPIO14, MTCK, HSPID, HS2_DATA3,
+SD_DATA3, EMAC_RX_ER |
+| TDO | GPIO15, ADC2_CH3, TOUCH3, MTDO, HSPICS0, RTC_GPIO13, HS2_CMD,
+SD_CMD, EMAC_RXD3 |
+| GND | Ground (shown as EN in the photo, will be changed in the next revision) |
+| RXD | GPIO3, U0RXD, CLK_OUT2 |
+| 26  | GPIO26, DAC_2, ADC2_CH9, RTC_GPIO7, EMAC_RXD1 |
+| TXD | GPIO1, U0TXD, CLK_OUT3, EMAC_RXD2 |
+| 25  | GPIO25, DAC_1, ADC2_CH8, RTC_GPIO6, EMAC_RXD0 |
+| 27  | GPIO27, ADC2_CH7, TOUCH7, RTC_GPIO17, EMAC_RX_DV |
+| 33  | GPIO33, XTAL_32K_N (32.768 kHz crystal oscillator output), ADC1_CH5,
+TOUCH8, RTC_GPIO8 |
+| 17  | GPIO17, HS1_DATA5, U2TXD, EMAC_CLK_OUT_180 |
+| 32  | GPIO32, XTAL_32K_P (32.768 kHz crystal oscillator input), ADC1_CH4,
+TOUCH9, RTC_GPIO9 |
+| 16  | GPIO16, HS1_DATA4, U2RXD, EMAC_CLK_OUT |
+| 3V3 | 3.3 volt power (limited to 500mA total including CPU) |
+| GND | Ground  |
+
+## Photos
 
 Here is the front of the board:
 
