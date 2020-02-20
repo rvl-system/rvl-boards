@@ -1,6 +1,6 @@
 # RVL Controller Board
 
-_**Note:**_ This board is still in development.
+_**Note:**_ This board is still in development, and documentation is currently sparse.
 
 The RVL controller board is a custom board that runs the [RVL Firmware](https://github.com/rvl-system/rvl-firmware), and is intended for use as both a development board and an LED controller. This board features:
 
