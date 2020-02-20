@@ -42,12 +42,12 @@ This data comes from the [ESP32 WROOM datasheet](https://www.espressif.com/sites
 
 Here is the front of the board:
 
-![front](https://user-images.githubusercontent.com/1141386/74892894-c1f00880-533f-11ea-85b2-5406611d7ab5.jpg)
+<img src="https://user-images.githubusercontent.com/1141386/74892894-c1f00880-533f-11ea-85b2-5406611d7ab5.jpg" alt="Board front" width="500px"></img>
 
 Here is the back of the board:
 
-![back](https://user-images.githubusercontent.com/1141386/74892908-ce746100-533f-11ea-830a-bf999217769f.jpg)
+<img src="https://user-images.githubusercontent.com/1141386/74892908-ce746100-533f-11ea-830a-bf999217769f.jpg" alt="Board back" width="500px"></img>
 
 And here is the board running with a WS2812b LED strip attached
 
-![running](https://user-images.githubusercontent.com/1141386/74892911-d0d6bb00-533f-11ea-85fa-5b57b07bd262.jpg)
+<img src="https://user-images.githubusercontent.com/1141386/74892911-d0d6bb00-533f-11ea-85fa-5b57b07bd262.jpg" alt="Board running with LEDs attached" width="500px"></img>
