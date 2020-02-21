@@ -42,12 +42,18 @@ This data comes from the [ESP32 WROOM datasheet](https://www.espressif.com/sites
 
 Here is the front of the board:
 
-<img src="https://user-images.githubusercontent.com/1141386/74892894-c1f00880-533f-11ea-85b2-5406611d7ab5.jpg" alt="Board front" width="500px"></img>
+<img src="https://user-images.githubusercontent.com/1141386/74892894-c1f00880-533f-11ea-85b2-5406611d7ab5.jpg" alt="Board front" width="480px"></img>
 
 Here is the back of the board:
 
-<img src="https://user-images.githubusercontent.com/1141386/74892908-ce746100-533f-11ea-830a-bf999217769f.jpg" alt="Board back" width="500px"></img>
+<img src="https://user-images.githubusercontent.com/1141386/74892908-ce746100-533f-11ea-830a-bf999217769f.jpg" alt="Board back" width="480px"></img>
 
-And here is the board running with a WS2812b LED strip attached
+Here is the board running with a WS2812b LED strip attached
 
-<img src="https://user-images.githubusercontent.com/1141386/74892911-d0d6bb00-533f-11ea-85fa-5b57b07bd262.jpg" alt="Board running with LEDs attached" width="500px"></img>
+<img src="https://user-images.githubusercontent.com/1141386/74892911-d0d6bb00-533f-11ea-85fa-5b57b07bd262.jpg" alt="Board running with LEDs attached" width="480px"></img>
+
+And here is a video of an art piece I designed the lighting for using an older version of this board at Burning Man 2019:
+
+<a href="https://www.youtube.com/watch?v=HZNM6n1g5n8" target="_blank">
+  <img src="https://img.youtube.com/vi/HZNM6n1g5n8/0.jpg" alt="Video of the BRPL Deep Playa Branch at Burning Man 2019" width="480" height="360" border="10" />
+</a>
