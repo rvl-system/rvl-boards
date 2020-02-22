@@ -5,6 +5,8 @@ _**Note:**_ This board is still in development, and documentation is currently s
 The RVL controller board is a custom board that runs the [RVL Firmware](https://github.com/rvl-system/rvl-firmware), and is intended for use as both a development board and an LED controller. This board features:
 
 - ESP32 dual core processor
+- Compatible with 3 or 4 pin 5V LED strips supported by [FastLED](http://fastled.io/)
+  - Solder jumper for switching between 3 and 4 pin headers (optional)
 - Can be powered from USB, or can be "backfed" power from the LED strip connected to it
 - 3.3V to 5V level translation on LED control pins
 - An LCD and tiny 5-way joystick for controlling the device directly
@@ -12,8 +14,6 @@ The RVL controller board is a custom board that runs the [RVL Firmware](https://
 - Can be programmed using JTAG + [OpenOCD](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/jtag-debugging/#jtag-debugging-setup-openocd) or UART + [esptool.py](https://github.com/espressif/esptool)
   - JTAG is the recommended way to interact with this device. The experience is a lot smoother, and you can also debug the device with breakpoints/variable inspection.
   - [RVL Firmware](https://github.com/rvl-system/rvl-firmware) includes a script that is preconfigured to use JTAG+OpenOCD with this deviceand the [FTDI MPSSE](https://www.ftdichip.com/Products/Cables/USBMPSSE.htm) JTAG cable 
-- Compatible with 3 or 4 pin LED strips supported by [FastLED](http://fastled.io/)
-  - Solder jumper for switching between 3 and 4 pin headers (optional)
   
 ## GPIO Header Pins
 
