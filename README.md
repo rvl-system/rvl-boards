@@ -10,7 +10,7 @@ The RVL controller board is a custom board that runs the [RVL Firmware](https://
 - Can be powered from USB, or can be "backfed" power from the LED strip connected to it
 - 3.3V to 5V level translation on LED control pins
 - An LCD and tiny 5-way joystick for controlling the device directly
-- A 16-pin GPIO header, with GPIO, UART, JTAG, I2C, and ADC pins exposed
+- A 16-pin header, with GPIO, UART, JTAG, I2C, and ADC pins exposed
 - Can be programmed using JTAG + [OpenOCD](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/jtag-debugging/#jtag-debugging-setup-openocd) or UART + [esptool.py](https://github.com/espressif/esptool)
   - JTAG is the recommended way to interact with this device. The experience is a lot smoother, and you can also debug the device with breakpoints/variable inspection.
   - [RVL Firmware](https://github.com/rvl-system/rvl-firmware) includes a script that is preconfigured to use JTAG+OpenOCD with this deviceand the [FTDI MPSSE](https://www.ftdichip.com/Products/Cables/USBMPSSE.htm) JTAG cable 
