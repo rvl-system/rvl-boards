@@ -17,7 +17,18 @@ The RVL controller board is a custom board that runs the [RVL Firmware](https://
   
 ## GPIO Header Pins
 
-This data comes from the [ESP32 WROOM datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf).
+The GPIO header has the following layout:
+
+<table>
+  <tr>
+    <td>TMS</td><td>TC</td><td>GND</td><td>26</td><td>25</td><td>18</td><td>23</td><td>VCC</td>
+  </tr>
+  <tr>
+    <td>TDI</td><td>TDO</td><td>RXD</td><td>TXD</td><td>27</td><td>5</td><td>19</td><td>GND</td>
+  </tr>
+</table>
+
+Each pin has the following functionality*:
 
 |Pin|Functions|
 |--|--|
@@ -37,6 +48,8 @@ This data comes from the [ESP32 WROOM datasheet](https://www.espressif.com/sites
 | 5  | GPIO5, GPIO5, HS1_DATA6, VSPICS0, EMAC_RX_CLK |
 | 3V3 | 3.3 volt power (limited to 500mA total including CPU) |
 | GND | Ground  |
+
+*This data comes from the [ESP32 WROOM datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf).
 
 ## Photos
 
