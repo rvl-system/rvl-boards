@@ -46,7 +46,7 @@ Each pin has the following functionality*:
 | 18  | GPIO18, GPIO18, HS1_DATA7, VSPICLK |
 | 19  | GPIO19, GPIO19, U0CTS, VSPIQ/VSPMISO, EMAC_TXD0 |
 | 5  | GPIO5, GPIO5, HS1_DATA6, VSPICS0, EMAC_RX_CLK |
-| 3V3 | 3.3 volt power (limited to 500mA total including CPU) |
+| VCC | 3.3 volt power (limited to 500mA total including CPU) |
 | GND | Ground  |
 
 *This data comes from the [ESP32 WROOM datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf).
