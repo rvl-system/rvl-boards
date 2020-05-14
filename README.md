@@ -36,7 +36,7 @@ Each pin has the following functionality*:
 | TDI | GPIO12, ADC2_CH5, TOUCH5, RTC_GPIO15, MTDI, HSPIQ, HS2_DATA2, SD_DATA2, EMAC_TXD3 |
 | TCK | GPIO13, ADC2_CH4, TOUCH4, RTC_GPIO14, MTCK, HSPID, HS2_DATA3, SD_DATA3, EMAC_RX_ER |
 | TDO | GPIO15, ADC2_CH3, TOUCH3, MTDO, HSPICS0, RTC_GPIO13, HS2_CMD, SD_CMD, EMAC_RXD3 |
-| GND | Ground (shown as EN in the photo, will be changed in the next revision) |
+| GND | Ground (shown as EN in the photo, but has been changed in the most recent revision) |
 | RXD | GPIO3, U0RXD, CLK_OUT2 |
 | 26  | GPIO26, DAC_2, ADC2_CH9, RTC_GPIO7, EMAC_RXD1 |
 | TXD | GPIO1, U0TXD, CLK_OUT3, EMAC_RXD2 |
