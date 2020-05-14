@@ -21,7 +21,7 @@ The GPIO header has the following layout:
 
 <table>
   <tr>
-    <td>TMS</td><td>TC</td><td>GND</td><td>26</td><td>25</td><td>18</td><td>23</td><td>VCC</td>
+    <td>TMS</td><td>TCK</td><td>GND</td><td>26</td><td>25</td><td>18</td><td>23</td><td>VCC</td>
   </tr>
   <tr>
     <td>TDI</td><td>TDO</td><td>RXD</td><td>TXD</td><td>27</td><td>5</td><td>19</td><td>GND</td>
