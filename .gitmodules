@@ -1,0 +1,3 @@
+[submodule "lib/eagle-components"]
+	path = lib/eagle-components
+	url = https://github.com/rvl-system/eagle-components.git

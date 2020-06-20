@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -189,9 +189,9 @@
 <wire x1="116.5225" y1="63.1825" x2="116.5225" y2="59.3725" width="0.1524" layer="21"/>
 <wire x1="115.57" y1="61.9125" x2="121.6025" y2="61.9125" width="0.1524" layer="21"/>
 <wire x1="119.0625" y1="63.1825" x2="119.0625" y2="59.3725" width="0.1524" layer="21"/>
-<text x="81.5975" y="67.6275" size="0.889" layer="22" font="vector" ratio="20" rot="MR90">RVL Controller v1.4
+<text x="81.5975" y="67.6275" size="0.889" layer="22" font="vector" ratio="20" rot="MR90">RVL Controller v1.5
 Copyright Bryan Hughes
-March 2020</text>
+June 2020</text>
 <circle x="85.09" y="50.165" radius="3.556" width="0.1524" layer="21"/>
 <circle x="120.3325" y="78.4225" radius="3.556" width="0.1524" layer="21"/>
 <text x="85.4075" y="56.515" size="0.889" layer="25" font="vector" ratio="20" rot="R270">LED</text>
