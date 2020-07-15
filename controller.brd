@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="6.25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -25,7 +25,7 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -200,6 +200,7 @@ June 2020</text>
 <text x="87.63" y="57.15" size="0.889" layer="22" font="vector" ratio="20" rot="MR0" align="top-left">Power LED</text>
 <text x="121.6025" y="58.57875" size="0.889" layer="22" font="vector" ratio="20" rot="MR0">5V LED
 Power</text>
+<rectangle x1="118.4656" y1="51.8414" x2="118.6434" y2="53.5686" layer="30"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -2467,9 +2468,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="107.56" y1="80.01" x2="109.1475" y2="80.01" width="0.6096" layer="16"/>
 <wire x1="110.1725" y1="62.5475" x2="110.1725" y2="63.6905" width="0.3048" layer="1"/>
 <wire x1="112.7125" y1="63.6905" x2="113.9825" y2="63.6905" width="0.3048" layer="1"/>
-<wire x1="114.45875" y1="74.76875" x2="114.46125" y2="74.77125" width="0.3048" layer="1"/>
 <wire x1="93.66" y1="62.23" x2="92.39" y2="62.23" width="0.6096" layer="1"/>
-<wire x1="92.39" y1="62.23" x2="92.28513125" y2="62.23" width="0.6096" layer="1"/>
 <contactref element="R7" pad="2"/>
 <contactref element="R3" pad="2"/>
 <wire x1="111.4425" y1="80.6425" x2="109.78" y2="80.6425" width="0.3048" layer="16"/>
