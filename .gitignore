@@ -1,4 +1,7 @@
 # Ignore list for Eagle, a PCB layout tool
+.DS_Store
+controller/controller-backups
+receiver/receiver-backups
 
 # Backup files
 *.s#?

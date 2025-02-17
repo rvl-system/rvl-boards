@@ -18,7 +18,7 @@
 | [SF3O3GJ2](https://www.sparkfun.com/products/10063) | 5-way Tactile Switch | 1 | $2.10 | $2.10 |
 | [SSD1306](https://www.amazon.com/gp/product/B01HHOAQ5A/) | 128x64 pixel OLED I2C display | 1 | $11.59 | $11.59 |
 | [SN74LVC1T45DBVR](https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1T45DBVR/296-16843-1-ND/639459) | IC TRNSLTR BIDIRECTIONAL SOT23-6 | 2 | $0.55 | $1.10
-| [RVL Controller v1.3 board](https://oshpark.com/shared_projects/HsvGJ1qx) | Custom OSH Park board | 1 | $7.93 | $7.93 |
+| [RVL Controller v1.7 board](https://oshpark.com/shared_projects/RHi5VRXz) | Custom OSH Park board | 1 | $7.93 | $7.93 |
 | | | | | **$31.69** |
 
 ### Optional add-ons
