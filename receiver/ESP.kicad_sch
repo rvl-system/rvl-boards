@@ -198,6 +198,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -1527,6 +1536,10 @@
 		(uuid "a6d35421-5325-4565-a207-1afea77d74a1")
 	)
 	(no_connect
+		(at 114.3 111.76)
+		(uuid "aa9e83e4-253d-4442-9c65-f0851e42e27c")
+	)
+	(no_connect
 		(at 167.64 106.68)
 		(uuid "b7eee117-fc97-44cf-86da-6201ce3c86a5")
 	)
@@ -2369,6 +2382,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 87.63 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c5c4f2b-6bab-4004-8b16-f2926993e1bd")
+		(property "Reference" "D1"
+			(at 91.44 127.3174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 91.44 129.8574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 87.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 87.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 87.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71945263-e224-4d13-b07c-ee09ebde212b")
+		)
+		(pin "2"
+			(uuid "fd06776a-7b65-486b-b77b-28dfd59ea5cd")
+		)
+		(instances
+			(project ""
+				(path "/778027c0-3525-441e-8e71-ce93a37417d3/71c7d977-28bf-4f69-860c-fd2bb03b5b0f"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 109.22 73.66 0)
 		(unit 1)
@@ -2495,75 +2587,6 @@
 			(project "receiver"
 				(path "/778027c0-3525-441e-8e71-ce93a37417d3/71c7d977-28bf-4f69-860c-fd2bb03b5b0f"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 87.63 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8d0c23db-f7ba-4313-b389-bfc02a8091ba")
-		(property "Reference" "LED1"
-			(at 96.774 127.254 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Status"
-			(at 97.79 123.698 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 87.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 87.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3531bb77-5c17-4e67-a5e2-64b712746a3c")
-		)
-		(pin "1"
-			(uuid "43f2db7e-9433-42fe-928e-52f6201e3e62")
-		)
-		(instances
-			(project "receiver"
-				(path "/778027c0-3525-441e-8e71-ce93a37417d3/71c7d977-28bf-4f69-860c-fd2bb03b5b0f"
-					(reference "LED1")
 					(unit 1)
 				)
 			)

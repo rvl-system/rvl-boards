@@ -3269,7 +3269,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MBT3904DW1T1G:SOT236"
+		(property "Footprint" "receiver:SOT236"
 			(at 226.06 121.92 0)
 			(effects
 				(font
@@ -3420,7 +3420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FT231XQ-R:QFN50P400X400X80-21N"
+		(property "Footprint" "receiver:QFN50P400X400X80-21N"
 			(at 166.37 121.92 0)
 			(effects
 				(font
