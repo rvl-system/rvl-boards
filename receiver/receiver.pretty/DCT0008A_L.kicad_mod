@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "SN74LVC2T45DCTRE4 ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 2.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "61814371-ec32-4de4-8d44-ec1e94792a3f")
@@ -132,26 +132,6 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "3eaa22aa-1531-4b93-b014-758396124f6b")
-	)
-	(fp_line
-		(start -0.499999 -0.000003)
-		(end 0.500002 -0.000003)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "7495c9dd-b499-422b-8c6c-a53c315fd84d")
-	)
-	(fp_line
-		(start 0 0.499999)
-		(end 0 -0.500002)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "3ccb2a2a-4eda-4227-8e80-a244b7c29a57")
 	)
 	(fp_line
 		(start 2.4 1.699999)
