@@ -1932,7 +1932,7 @@
 		(uuid "e0a776d6-8699-4149-893c-df6584cb7481")
 	)
 	(global_label "USB_D+"
-		(shape input)
+		(shape bidirectional)
 		(at 95.25 85.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1943,7 +1943,7 @@
 		)
 		(uuid "13e51a3a-0edc-430b-981d-a57a959ac664")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.8552 85.09 0)
+			(at 106.9665 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1956,7 +1956,7 @@
 		)
 	)
 	(global_label "USB_D-"
-		(shape input)
+		(shape bidirectional)
 		(at 95.25 82.55 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1967,7 +1967,7 @@
 		)
 		(uuid "456bf2cb-ca3e-42da-87f9-8b8909eac438")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.8552 82.55 0)
+			(at 106.9665 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
