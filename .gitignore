@@ -1,55 +1,46 @@
-# Ignore list for Eagle, a PCB layout tool
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Generic files
 .DS_Store
-controller/controller-backups
-receiver/receiver-backups
 
-# Backup files
-*.s#?
-*.b#?
-*.l#?
-*.b$?
-*.s$?
-*.l$?
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*-cache*
+*-bak
+*-bak*
+*~
+~*
+_autosave-*
+\#auto_saved_files\#
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+\#auto_saved_files#
 
-# Eagle project file
-# It contains a serial number and references to the file structure
-# on your computer.
-# comment the following line if you want to have your project file included.
-eagle.epf
+# Netlist files (exported from Eeschema)
+*.net
 
-# Autorouter files
-*.pro
-*.job
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
 
-# CAM files
-*.$$$
-*.cmp
-*.ly2
-*.l15
-*.sol
-*.plc
-*.stc
-*.sts
-*.crc
-*.crs
+# Exported BOM files
+*.xml
+*.csv
 
-*.dri
-*.drl
-*.gpi
-*.pls
-*.ger
-*.gpi
-*.xln
+# Archived Backups (KiCad 6.0)
+**/*-backups/*.zip
 
-*.drd
-*.drd.*
+# Local git-based history (KiCad 9.0+)
+.history
 
-*.s#*
-*.b#*
-
-*.info
-
-*.eps
-
-# file locks introduced since 7.x
-*.lck
+# Local project settings
+*.kicad_prl
