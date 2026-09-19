@@ -3269,7 +3269,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MBT3904DW1T1G:SOT236"
+		(property "Footprint" "receiver:SOT236"
 			(at 226.06 121.92 0)
 			(effects
 				(font

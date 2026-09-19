@@ -1488,12 +1488,317 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "receiver:MOMENTARY-SWITCH-SPST-2-SMD-4.6X2.8MM"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 0 4.826 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 -2.794 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify top)
+				)
+			)
+			(property "Footprint" "receiver:TACTILE_SWITCH_SMD_4.6X2.8MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MOMENTARY-SWITCH-SPST-2-SMD-4.6X2.8MM_1_0"
+				(circle
+					(center -2.54 0)
+					(radius 0.127)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 4.445) (xy -1.905 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.445) (xy -1.905 4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.445) (xy 0 3.175)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 4.445) (xy 0 4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 4.445) (xy 1.905 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.127)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 82.55 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11e47719-525c-4b83-9b72-56403f47f0c7")
+	)
+	(junction
+		(at 72.39 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "304367cf-34f3-43bb-9d7c-e5de77faa11e")
+	)
+	(junction
+		(at 77.47 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3adbccbe-cacb-47a5-90f8-f686de4d9793")
+	)
+	(junction
+		(at 57.15 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb29912e-3e94-4f2f-8686-0dab2f8a85fe")
 	)
 	(no_connect
 		(at 114.3 99.06)
@@ -1583,6 +1888,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 91.44) (xy 77.47 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1634e82d-4be2-4411-8bb7-f6e537bfd64e")
+	)
+	(wire
+		(pts
 			(xy 82.55 78.74) (xy 82.55 81.28)
 		)
 		(stroke
@@ -1613,6 +1928,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 93.98) (xy 72.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25e30099-3c07-41a0-b6cd-a540cdaa3dae")
+	)
+	(wire
+		(pts
 			(xy 82.55 101.6) (xy 82.55 104.14)
 		)
 		(stroke
@@ -1630,6 +1955,16 @@
 			(type default)
 		)
 		(uuid "544053e6-a846-4974-9579-247f01c72998")
+	)
+	(wire
+		(pts
+			(xy 72.39 91.44) (xy 77.47 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5873f884-84b9-48a5-9394-eb19cb62c297")
 	)
 	(wire
 		(pts
@@ -1663,6 +1998,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 93.98) (xy 57.15 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6b19a0b3-584c-4e4c-980a-46ecfdd36267")
+	)
+	(wire
+		(pts
 			(xy 114.3 106.68) (xy 106.68 106.68)
 		)
 		(stroke
@@ -1670,6 +2015,16 @@
 			(type solid)
 		)
 		(uuid "76c6fc8e-b0cb-44ab-b8ab-ff4e3bf96f39")
+	)
+	(wire
+		(pts
+			(xy 77.47 91.44) (xy 82.55 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ad1eb7-594e-4022-9d8e-55fa755ad2d1")
 	)
 	(wire
 		(pts
@@ -1723,6 +2078,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 93.98) (xy 57.15 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b4b7d105-bc89-435b-9272-5b26bf487817")
+	)
+	(wire
+		(pts
 			(xy 142.24 78.74) (xy 142.24 73.66)
 		)
 		(stroke
@@ -1730,6 +2095,16 @@
 			(type solid)
 		)
 		(uuid "bd3f4f19-cf38-443d-9b9c-cf1d546c7a96")
+	)
+	(wire
+		(pts
+			(xy 69.85 93.98) (xy 72.39 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfa1b45e-c733-4c7b-99e9-8772cbf00e3b")
 	)
 	(wire
 		(pts
@@ -1773,6 +2148,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 91.44) (xy 59.69 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "da70de2f-b9a8-4a02-b43b-d3caa022438a")
+	)
+	(wire
+		(pts
 			(xy 147.32 73.66) (xy 147.32 76.2)
 		)
 		(stroke
@@ -1780,16 +2165,6 @@
 			(type solid)
 		)
 		(uuid "e5426e3a-aae8-4937-bb11-22915b635588")
-	)
-	(wire
-		(pts
-			(xy 80.01 91.44) (xy 82.55 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6899e72-2204-411e-afb1-3069df7a393f")
 	)
 	(wire
 		(pts
@@ -1810,6 +2185,26 @@
 			(type solid)
 		)
 		(uuid "e990d080-83d9-4aa4-800a-2c94deb49cc8")
+	)
+	(wire
+		(pts
+			(xy 57.15 96.52) (xy 57.15 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ed1bed08-cfce-4384-9c16-400a4e9e794d")
+	)
+	(wire
+		(pts
+			(xy 69.85 91.44) (xy 72.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f119f297-80d0-4849-94ae-6bb448e75d86")
 	)
 	(wire
 		(pts
@@ -1899,22 +2294,22 @@
 	)
 	(global_label "EN"
 		(shape bidirectional)
-		(at 80.01 91.44 180)
+		(at 77.47 88.9 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5fc825dd-4323-4744-90e9-f222d432edc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.434 91.44 0)
+			(at 77.47 82.324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1982,6 +2377,80 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "receiver:MOMENTARY-SWITCH-SPST-2-SMD-4.6X2.8MM")
+		(at 64.77 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "378e6b45-c93c-4c24-b233-a02ad1d79108")
+		(property "Reference" "S1"
+			(at 64.77 80.01 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 64.77 83.82 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+			)
+		)
+		(property "Footprint" "receiver:TACTILE_SWITCH_SMD_4.6X2.8MM"
+			(at 64.77 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4fa4cd6-ff08-4ef6-a5f1-afe3542c4d9a")
+		)
+		(pin "2"
+			(uuid "769c3e9a-9553-461c-a9e9-55c596bdb6b7")
+		)
+		(pin "4"
+			(uuid "1110da81-76b8-4ad9-83c5-594f4b69bd63")
+		)
+		(pin "3"
+			(uuid "94668097-d030-4b18-8219-218daaee623c")
+		)
+		(instances
+			(project ""
+				(path "/778027c0-3525-441e-8e71-ce93a37417d3/71c7d977-28bf-4f69-860c-fd2bb03b5b0f"
+					(reference "S1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2163,6 +2632,12 @@
 					(unit 1)
 				)
 			)
+			(project "ESP"
+				(path "/afec6621-eff6-41a9-9d3e-5ff56a910804"
+					(reference "U$?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2229,6 +2704,12 @@
 					(unit 1)
 				)
 			)
+			(project "ESP"
+				(path "/afec6621-eff6-41a9-9d3e-5ff56a910804"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2292,6 +2773,12 @@
 			(project "receiver"
 				(path "/778027c0-3525-441e-8e71-ce93a37417d3/71c7d977-28bf-4f69-860c-fd2bb03b5b0f"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+			(project "ESP"
+				(path "/afec6621-eff6-41a9-9d3e-5ff56a910804"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2374,6 +2861,12 @@
 					(unit 1)
 				)
 			)
+			(project "ESP"
+				(path "/afec6621-eff6-41a9-9d3e-5ff56a910804"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2437,6 +2930,12 @@
 			(project "receiver"
 				(path "/778027c0-3525-441e-8e71-ce93a37417d3/71c7d977-28bf-4f69-860c-fd2bb03b5b0f"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "ESP"
+				(path "/afec6621-eff6-41a9-9d3e-5ff56a910804"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2506,6 +3005,12 @@
 					(unit 1)
 				)
 			)
+			(project "ESP"
+				(path "/afec6621-eff6-41a9-9d3e-5ff56a910804"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2569,6 +3074,12 @@
 			(project "receiver"
 				(path "/778027c0-3525-441e-8e71-ce93a37417d3/71c7d977-28bf-4f69-860c-fd2bb03b5b0f"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+			(project "ESP"
+				(path "/afec6621-eff6-41a9-9d3e-5ff56a910804"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2641,6 +3152,12 @@
 					(unit 1)
 				)
 			)
+			(project "ESP"
+				(path "/afec6621-eff6-41a9-9d3e-5ff56a910804"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2704,6 +3221,12 @@
 			(project "receiver"
 				(path "/778027c0-3525-441e-8e71-ce93a37417d3/71c7d977-28bf-4f69-860c-fd2bb03b5b0f"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+			(project "ESP"
+				(path "/afec6621-eff6-41a9-9d3e-5ff56a910804"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2776,6 +3299,12 @@
 					(unit 1)
 				)
 			)
+			(project "ESP"
+				(path "/afec6621-eff6-41a9-9d3e-5ff56a910804"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2845,6 +3374,12 @@
 					(unit 1)
 				)
 			)
+			(project "ESP"
+				(path "/afec6621-eff6-41a9-9d3e-5ff56a910804"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2908,6 +3443,84 @@
 			(project "receiver"
 				(path "/778027c0-3525-441e-8e71-ce93a37417d3/71c7d977-28bf-4f69-860c-fd2bb03b5b0f"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+			(project "ESP"
+				(path "/afec6621-eff6-41a9-9d3e-5ff56a910804"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea72808c-ecbf-46bc-9001-59f27ac1062b")
+		(property "Reference" "#PWR0101"
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c50a934a-5138-42db-b0ed-b9d0aca42588")
+		)
+		(instances
+			(project "receiver"
+				(path "/778027c0-3525-441e-8e71-ce93a37417d3/71c7d977-28bf-4f69-860c-fd2bb03b5b0f"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+			(project "ESP"
+				(path "/afec6621-eff6-41a9-9d3e-5ff56a910804"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2977,6 +3590,18 @@
 					(unit 1)
 				)
 			)
+			(project "ESP"
+				(path "/afec6621-eff6-41a9-9d3e-5ff56a910804"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
