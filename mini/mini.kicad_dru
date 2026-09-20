@@ -1,0 +1,20 @@
+(version 1)
+(rule "Minimum clearance 1"
+	(constraint clearance (min 0.127mm))
+)
+(rule "Minimum connection width 1"
+	(constraint connection_width (min 0.127mm))
+)
+(rule "Copper to hole clearance 1"
+	(constraint hole_clearance (min 0.127mm))
+)
+(rule "Minimum annular width 1"
+	(constraint annular_width (min 0.1016mm))
+)
+(rule "Via style 1"
+	(constraint via_diameter (min 0.4572mm) (max 999mm))
+	(constraint hole_size (min 0.254mm) (max 999mm))
+)
+(rule "Hole to hole distance 1"
+	(constraint hole_to_hole (min 0.127mm))
+)
