@@ -669,14 +669,9 @@
         "filename": "leds.kicad_sch",
         "name": "leds",
         "uuid": "278c4b06-e946-4ff3-934e-6a077f513db9"
-      },
-      {
-        "filename": "serial.kicad_sch",
-        "name": "serial",
-        "uuid": "bebcafa6-8747-42f1-afac-60a35a435e69"
       }
     ],
-    "used_designators": "R1-4,L1,D1,C1-3,#PWR1-19,J1-2,U1-3",
+    "used_designators": "R1-7,L1,D1,C1-3,#PWR1-21,J1-3,U1-4",
     "variants": []
   },
   "sheets": [
@@ -691,10 +686,6 @@
     [
       "278c4b06-e946-4ff3-934e-6a077f513db9",
       "leds"
-    ],
-    [
-      "bebcafa6-8747-42f1-afac-60a35a435e69",
-      "serial"
     ]
   ],
   "text_variables": {},

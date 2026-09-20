@@ -1338,7 +1338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DBV0006A_N"
+		(property "Footprint" "RVL:DBV0006A_N"
 			(at 144.78 100.33 0)
 			(hide yes)
 			(show_name no)
