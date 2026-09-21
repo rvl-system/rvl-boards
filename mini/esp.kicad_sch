@@ -4081,8 +4081,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 166.116 113.03 0)
+		(property "Value" "220"
+			(at 170.434 113.792 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4650,8 +4650,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 161.29 113.03 0)
+		(property "Value" "330"
+			(at 162.052 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4809,8 +4809,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 155.956 113.284 0)
+		(property "Value" "330"
+			(at 153.67 113.538 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
