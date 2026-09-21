@@ -1,17 +1,13 @@
 (kicad_sch
-	(version 20250114)
+	(version 20231120)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "8.0")
 	(uuid "778027c0-3525-441e-8e71-ce93a37417d3")
 	(paper "A4")
 	(lib_symbols)
 	(sheet
 		(at 25.4 25.4)
 		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -50,10 +46,6 @@
 	(sheet
 		(at 177.8 25.4)
 		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -84,7 +76,7 @@
 		(instances
 			(project "receiver"
 				(path "/778027c0-3525-441e-8e71-ce93a37417d3"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
@@ -92,10 +84,6 @@
 	(sheet
 		(at 127 25.4)
 		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -126,7 +114,7 @@
 		(instances
 			(project "receiver"
 				(path "/778027c0-3525-441e-8e71-ce93a37417d3"
-					(page "4")
+					(page "3")
 				)
 			)
 		)
@@ -134,10 +122,6 @@
 	(sheet
 		(at 76.2 25.4)
 		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -168,7 +152,7 @@
 		(instances
 			(project "receiver"
 				(path "/778027c0-3525-441e-8e71-ce93a37417d3"
-					(page "3")
+					(page "2")
 				)
 			)
 		)
@@ -176,10 +160,6 @@
 	(sheet
 		(at 228.6 25.4)
 		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -189,7 +169,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "aa869493-c816-4a1f-8806-984226bef929")
-		(property "Sheetname" "Serial"
+		(property "Sheetname" "Extension Headers"
 			(at 228.6 24.6884 0)
 			(effects
 				(font
@@ -210,7 +190,7 @@
 		(instances
 			(project "receiver"
 				(path "/778027c0-3525-441e-8e71-ce93a37417d3"
-					(page "2")
+					(page "5")
 				)
 			)
 		)
@@ -220,5 +200,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
